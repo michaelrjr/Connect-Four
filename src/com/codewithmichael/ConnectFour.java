@@ -422,8 +422,7 @@ public class ConnectFour {
                 undoLastMove(board, col);
             }
         }
-        System.out.println("best score = " + bestScore);
-        System.out.println("col = " + optimalCol);
+
         placePlayer2Piece(board, optimalCol); // make computer move with optimal column
     }
 
